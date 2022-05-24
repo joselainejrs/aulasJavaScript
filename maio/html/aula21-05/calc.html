@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <script>
+        function calcula() {
+            var calculo
+
+            calculo = tela.operador.value;
+
+            if (calculo == "+"){
+                alert(parseInt(tela.num1.value) + parseInt(tela.num2.value));
+            }if (calculo == "*"){
+                alert(parseInt(tela.num1.value) * parseInt(tela.num2.value));
+            }if(calculo == "-"){
+                alert(parseInt(tela.num1.value) - parseInt(tela.num2.value));
+            }else{
+                alert(parseInt(tela.num1.value) / parseInt(tela.num2.value));
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <!-- Calculadora -->
+
+    <form  id="tela">
+        <label >Digite um numero</label>
+        <input type="text" name="num1">
+        <br>
+
+        <label>Operador</label>
+        <input type="text" name="operador">
+        <br>
+
+        <label >Digite um numero</label>
+        <input type="text" name="num2">
+        <br>
+        <br>
+
+        <!-- Criando um Botão -->
+        <input type="button" onclick="calcula()" value="Calcula">
+    </form>
+
+</body>
+
+</html>

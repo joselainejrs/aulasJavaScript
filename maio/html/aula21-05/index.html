@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página em Javascript</title>
+
+    <!-- Criando a nossa biblioteca em JS interna -->
+    <script>
+        // alert("Seja bem vindo a nossa super página");
+
+        //criando uma variavél
+        // nome=prompt("Seja bem vindo(a) meu novo aluno(a), qual é o seu nome?", "Digite o seu nome");
+        /*var nome;
+
+        nome=prompt("Seja bem vindo(a) meu novo aluno(a), qual é o seu nome?");
+
+        if(nome=="Digite seu nome"){
+            alert('meu querido você precisa digitar o nome')
+        }else{
+            alert('Olá ' + nome + ' muito legal ter você aqui');
+        }*/
+
+        /*
+        // Explicação de Variaveis
+
+        // trabalhando com a variavél global
+        var nome, sobrenome
+
+        nome = 'José';
+        sobrenome = 'Silva'
+        alert(nome + ' ' + sobrenome)
+
+        // trabalhando com a variavél local (let)
+    
+        // trabalhando com a variavél tipo matriz ou array (const)
+        */
+
+
+        // Trabalhndo com operadores
+        /*
+                var valor1, valor2, resultado;
+        
+                
+                valor1 = 10;
+                valor2 = 20;
+                resultado = valor1+valor2;
+                alert(resultado);
+                */
+
+        // Criando uma funçao em Javascript
+        function soma() {
+            var valo1, valo2, resultado
+
+            valo1 = calculo.num1.value;
+            valo2 = calculo.num2.value;
+            resultado = parseInt(valo1) * parseInt(valo2);   
+            alert(resultado)
+        }
+
+
+    </script>
+</head>
+
+<body>
+    <!-- inserindo um cabeçalho -->
+    <h3>Primeira página com lógica em Javascript</h3>
+
+    <!-- criando campos para inserir valores  -->
+
+    <form action="" id="calculo">
+        <label>Insira o numero 1</label>
+        <input type="text" name="num1">
+        <br>
+
+        <label>Insira o numero 2</label>
+        <input type="text" name="num2">
+        <br>
+
+        <!-- Criando um Botão -->
+        <input type="button" onclick="soma()" value="Processar">
+    </form>
+
+</body>
+
+</html>
