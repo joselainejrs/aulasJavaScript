@@ -17,6 +17,13 @@
         
       ```
 
+   - loop:
+      ```
+    Loop, laço de repetição, que pode ser infinito ou não
+      
+      forma de uso :
+      EX: While, for , for each        
+      ```
       
   ##### 
 
