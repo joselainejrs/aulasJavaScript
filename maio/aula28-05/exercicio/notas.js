@@ -29,3 +29,7 @@ function nomes(value) {
 }
 
 console.log(aluno.find(nomes));
+
+
+// Array.prototype.find()
+// https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/find
