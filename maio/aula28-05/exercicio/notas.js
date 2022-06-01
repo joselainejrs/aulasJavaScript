@@ -15,14 +15,17 @@ for (contador = 0; contador < 3; contador++) {
 }*/
 
 const aluno = [
-    {nome: "Joselaine", notaAluno1: 5, notaAluno2: 6 },
-    {nome: "Maria", notaAluno1: 8, notaAluno2: 7 },
-    {nome: "Bernardo", notnotaAluno1a1: 9, notaAluno2:10}
+    { nome: "Joselaine", notaAluno1: 5, notaAluno2: 6 },
+    { nome: "Maria", notaAluno1: 8, notaAluno2: 7 },
+    { nome: "Bernardo", notnotaAluno1a1: 9, notaAluno2: 10 }
 ];
 
-console.log(aluno.nome);
-console.log(aluno.notaAluno1);
+function nomes(value) {
 
-// for (contador = 0; contador < 3; contador++) {
-//     console.log(Aluno.nome[contador] + " - Media do Aluno " + (Aluno.notaAluno1[contador] + Aluno.notaAluno2[contador])/ 2);
-// }
+    // for (contador = 0; contador < 3; contador++) {
+    //     console.log(value.nome == 'Joselaine' + " - Media do Aluno " + (value.notaAluno1[contador] + value.notaAluno2[contador]) / 2);
+    // }
+    return value.nome == 'Joselaine';
+}
+
+console.log(aluno.find(nomes));
