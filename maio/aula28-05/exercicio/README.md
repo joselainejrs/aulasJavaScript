@@ -1,29 +1,12 @@
 
-## O que é nodeJs?
+#### Exercicio?
 
-```
+Realizar 3 constantes contendo o nome e as duas notas que o aluno recebeu e no final fazer a media
+      ```
+        Resultado:
+          No console exibir o nome e a media do aluno. 
+      ```
   
-```
-
-#### O que aprendemos nessa aula?
-
-  - Rodar o nodeJs:
-      ```
-        
-      ```
-  - Uso do Console:
-      ```
-    console.log('Seja bem vindo a nossa aula de nodeJs');
-        
-      ```
-
-   - loop:
-      ```
-    Loop, laço de repetição, que pode ser infinito ou não
-      
-      forma de uso :
-      EX: While, for , for each        
-      ```
       
   ##### 
 
