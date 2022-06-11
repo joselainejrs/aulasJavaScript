@@ -13,6 +13,7 @@
   - Explicação sobre operadores de igualdade
         ```
       https://docs.microsoft.com/pt-br/cpp/cpp/equality-operators-equal-equal-and-exclpt-equal?view=msvc-170
+      https://docs.microsoft.com/pt-br/cpp/cpp/logical-or-operator-pipe-pipe?view=msvc-170
        ```
 
  
